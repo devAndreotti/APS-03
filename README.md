@@ -10,62 +10,59 @@
 </div>
 
 ## 📋 Sobre o Projeto
-Totem digital para **pesquisa de satisfação** em uma exposição sobre **exploração robótica em Marte**. Desenvolvido em **Java** com interface **Swing**, o sistema coleta dados dos visitantes e gera insights úteis para o museu.
-
-### 🌟 Destaques
-| Funcionalidade               | Descrição                                                                 |
-|-----------------------------|---------------------------------------------------------------------------|
-| 🎛️ Interface Intuitiva     | Telas sequenciais e amigáveis para conduzir o visitante                   |
-| 📊 Cálculo de Métricas      | Gera estatísticas com base nas respostas coletadas                        |
-| 🧠 Validação Inteligente    | Garante que todas as informações inseridas sejam válidas                  |
-| 🧱 Arquitetura em Camadas   | Organização em pacotes: `modelo`, `apresentacao`, `aps`                   |
+O **Totem Interativo - Robótica em Marte** é um sistema digital desenvolvido em **Java** com interface gráfica **Swing**, projetado para coletar **pesquisas de satisfação** de visitantes em exposições sobre **exploração robótica no planeta Marte**. A aplicação visa transformar feedbacks em **dados estatísticos úteis**, auxiliando curadores e organizadores a melhorar a experiência dos visitantes.
 
 ## 🛠️ Tecnologias Utilizadas
-- [Java](https://www.oracle.com/br/java/) – Lógica e estrutura
-- [Java Swing](https://docs.oracle.com/javase/tutorial/uiswing/) – Interface gráfica
-- [NetBeans](https://netbeans.apache.org/) – IDE de desenvolvimento
+* [Java](https://www.oracle.com/br/java/) – Lógica de negócio e controle da aplicação
+* [Java Swing](https://docs.oracle.com/javase/tutorial/uiswing/) – Desenvolvimento da interface gráfica
+* [NetBeans](https://netbeans.apache.org/) – Ambiente de desenvolvimento integrado (IDE)
 
-## 📂 Estrutura do Projeto
+## 🌟 Funcionalidades em Destaque
+| Funcionalidade           | Descrição                                                                 |
+| ------------------------ | ------------------------------------------------------------------------- |
+| 🎛️ Interface Intuitiva  | Navegação sequencial, simples e acessível para qualquer perfil de usuário |
+| 📊 Geração de Métricas   | Cálculo automático de estatísticas com base nas respostas                 |
+| 🧠 Validação Inteligente | Controle de entrada para garantir dados consistentes                      |
+| 🧱 Arquitetura Modular   | Separação em pacotes lógicos: `modelo`, `apresentacao`, `aps`             |
+
+## 🚀 Como Executar o Projeto
+1. Certifique-se de ter o [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html) instalado
+2. Clone este repositório:
+
+   ```bash
+   git clone https://github.com/devAndreotti/APS-03.git
+   ```
+3. Abra o projeto no **NetBeans**
+4. Compile e execute a classe `Aps.java`
+   *ou* execute o `.jar` localizado em `dist/`
+
+## 📂 Estrutura de Pastas
 ```bash
 totem-robotica-marte/
-├── dist/                 → Arquivo compilado (APS.jar)
-├── nbproject/            → Configuração do NetBeans
+├── dist/                 → Aplicativo compilado (APS.jar)
+├── nbproject/            → Arquivos de configuração do NetBeans
 ├── src/
 │   ├── aps/              → Classe principal (aps.java)
-│   ├── apresentacao/     → Telas Swing (frmInicial, frmNome, etc.)
-│   ├── modelo/           → Regras de negócio e validação
-│   └── img/              → Imagens da interface
+│   ├── apresentacao/     → Interfaces gráficas (Swing)
+│   ├── modelo/           → Lógica da aplicação e validações
+│   └── img/              → Imagens utilizadas na UI
 └── README.md
 ```
 
-## 🚀 Como Usar
-1. Instale o [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html)  
-2. Clone este repositório:
-   ```bash
-   git clone https://github.com/seuUsuario/totem-robotica-marte.git
-   ```
-3. Abra no **NetBeans**
-4. Compile e execute a classe `Aps.java`  
-   ou rode o `.jar` na pasta `dist`
-
-## 🧩 Pacotes e Classes Principais
-| Pacote        | Responsabilidade                                              |
-|---------------|---------------------------------------------------------------|
-| `modelo`      | Controle da pesquisa, validações e cálculo de satisfação      |
-| `apresentacao`| Telas de interação com o usuário (Java Swing)                 |
-| `aps`         | Entrada principal da aplicação (`aps.java`)                   |
-
 ## 💪 Como Contribuir
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou fazer um fork do repositório e enviar pull requests.
-1. Faça um fork  
-2. Crie uma branch: `git checkout -b feature/sua-feature`  
-3. Commit: `git commit -m "Minha contribuição"`  
-4. Push: `git push origin feature/sua-feature`  
+Contribuições são sempre bem-vindas! Você pode colaborar sugerindo melhorias, relatando problemas ou enviando funcionalidades:
+1. Faça um **fork** do repositório
+2. Crie uma nova branch: `git checkout -b feature/minha-feature`
+3. Realize os commits: `git commit -m "feat: adiciona nova funcionalidade"`
+4. Faça o push: `git push origin feature/minha-feature`
 5. Abra um Pull Request 🚀
 
 <br>
 
 ---
-<p align="center"> Desenvolvido por <a href="https://github.com/devAndreotti">Ricardo Andreotti Gonçalves</a> </p>
+
+<p align="center">
+  Desenvolvido por <a href="https://github.com/devAndreotti" target="_blank"><strong>Ricardo Andreotti Gonçalves</strong></a> 🧑‍💻
+</p>
 
 ---
