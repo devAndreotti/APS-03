@@ -25,16 +25,6 @@ Totem digital para **pesquisa de satisfação** em uma exposição sobre **explo
 - [Java Swing](https://docs.oracle.com/javase/tutorial/uiswing/) – Interface gráfica
 - [NetBeans](https://netbeans.apache.org/) – IDE de desenvolvimento
 
-## 🚀 Como Usar
-1. Instale o [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html)  
-2. Clone este repositório:
-   ```bash
-   git clone https://github.com/seuUsuario/totem-robotica-marte.git
-   ```
-3. Abra no **NetBeans**
-4. Compile e execute a classe `Aps.java`  
-   ou rode o `.jar` na pasta `dist`
-
 ## 📂 Estrutura do Projeto
 ```bash
 totem-robotica-marte/
@@ -47,6 +37,16 @@ totem-robotica-marte/
 │   └── img/              → Imagens da interface
 └── README.md
 ```
+
+## 🚀 Como Usar
+1. Instale o [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html)  
+2. Clone este repositório:
+   ```bash
+   git clone https://github.com/seuUsuario/totem-robotica-marte.git
+   ```
+3. Abra no **NetBeans**
+4. Compile e execute a classe `Aps.java`  
+   ou rode o `.jar` na pasta `dist`
 
 ## 🧩 Pacotes e Classes Principais
 | Pacote        | Responsabilidade                                              |
