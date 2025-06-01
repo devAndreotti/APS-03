@@ -2,7 +2,7 @@
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/devAndreotti/APS-03?color=FFF&labelColor=764f2e&style=flat-square">
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/devAndreotti/APS-03?color=FFF&labelColor=764f2e&style=flat-square">
-  <img alt="GitHub License" src="https://img.shields.io/github/license/devAndreotti/APS-03?color=FFF&labelColor=764f2e&style=flat-square">
+  <img alt="GitHub License" src="https://img.shields.io/github/license/devAndreotti/devAndreotti?color=FFF&labelColor=764f2e&style=flat-square">
 </p>
 
 <div align="center">
